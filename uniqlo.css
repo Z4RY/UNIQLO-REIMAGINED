@@ -2240,6 +2240,88 @@ margin-top: 1em;
     width: 90%;
     line-height: 1.5vw;
  }
+.box-1-video{
+    width: 19.5vw;
+    height: 89vh;
+    /* background-color: green; */
+    z-index: 1001;
+    position: absolute;
+    top: 7.2vh;
+    left: 8.2vw;
+    opacity: 1;
+    transition: 1s;
+    border-radius: 15px;
+    overflow: hidden;
+}
+#box1:checked ~ label .box-1-video{
+    opacity: 0;
+    
+     /* display: none; */
+}
+#box1-vid{
+    /* width: 100%; */
+    height: 100%;
+}
+
+
+
+.box-2-video{
+    width: 19.5vw;
+    height: 88vh;
+    /* background-color: green; */
+    z-index: 1001;
+    position: absolute;
+    top: 7.2vh;
+    left: 37.8vw;
+    opacity: 1;
+    transition: 1s;
+    border-radius: 15px;
+    overflow: hidden;
+}
+#box2:checked ~ label .box-2-video{
+    opacity: 0;
+    
+     /* display: none; */
+}
+#box2-vid{
+    /* width: 100%; */
+    height: 100%;
+}
+
+
+.box-3-video{
+    width: 19.5vw;
+    height: 88vh;
+    /* background-color: green; */
+    z-index: 1001;
+    position: absolute;
+    top: 7.2vh;
+    left: 67.5vw;
+    opacity: 1;
+    transition: 1s;
+    border-radius: 15px;
+    overflow: hidden;
+}
+#box3:checked ~ label .box-3-video{
+    opacity: 0;
+    
+     /* display: none; */
+}
+#box3-vid{
+    /* width: 100%; */
+    height: 100%;
+}
+
+.box-1-video:hover{
+    cursor: pointer;
+}
+.box-2-video:hover{
+    cursor: pointer;
+}
+.box-3-video:hover{
+    cursor: pointer;
+}
+
 
 
  #page15{

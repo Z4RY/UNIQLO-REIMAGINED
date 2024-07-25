@@ -316,3 +316,174 @@ show()
 
 
 
+function layout() {
+  var pic0 = document.getElementById('show0');
+
+  document.getElementById('show0-0').addEventListener('mouseover', function() {
+    pic0.src = './Images/show4.jpg';
+    pic0.style.transition = "ease";
+    pic0.style.transitionDuration = "0.4";
+
+  });
+
+  document.getElementById('show0-0').addEventListener('mouseout', function() {
+    pic0.src = './Images/item_38_kv.jpg';
+    pic0.style.transition = "0.3 ease";
+    pic0.style.transitionDuration = "0.4";
+  });
+
+  var pic1 = document.getElementById('show1');
+
+  document.getElementById('show1-1').addEventListener('mouseover', function() {
+    pic1.src = './Images/show11.jpg';
+    pic1.style.transition = "ease";
+    pic1.style.transitionDuration = "0.4";
+
+  });
+
+  document.getElementById('show1-1').addEventListener('mouseout', function() {
+    pic1.src = './Images/res462602e7d3c8dca6329854efe7f66eb1fr.jpg';
+    pic1.style.transition = "0.3 ease";
+    pic1.style.transitionDuration = "0.4";
+  });
+
+  var pic2 = document.getElementById('show2');
+
+  document.getElementById('show2-2').addEventListener('mouseover', function() {
+    pic2.src = './Images/show7.jpg';
+    pic2.style.transition = "ease";
+    pic2.style.transitionDuration = "0.4";
+
+  });
+
+  document.getElementById('show2-2').addEventListener('mouseout', function() {
+    pic2.src = './Images/item_18_kv.jpg';
+    pic2.style.transition = "0.3 ease";
+    pic2.style.transitionDuration = "0.4";
+  });
+
+  var pic3 = document.getElementById('show3');
+
+  document.getElementById('show3-3').addEventListener('mouseover', function() {
+    pic3.src = './Images/show4.jpg';
+    pic3.style.transition = "ease";
+    pic3.style.transitionDuration = "0.4";
+
+  });
+
+  document.getElementById('show3-3').addEventListener('mouseout', function() {
+    pic3.src = './Images/category-1-1-2.jpg';
+    pic3.style.transition = "0.3 ease";
+    pic3.style.transitionDuration = "0.4";
+  });
+
+  var pic4 = document.getElementById('show4');
+
+  document.getElementById('show4-4').addEventListener('mouseover', function() {
+    pic4.src = './Images/show6.jpg';
+    pic4.style.transition = "ease";
+    pic4.style.transitionDuration = "0.4";
+
+  });
+
+  document.getElementById('show4-4').addEventListener('mouseout', function() {
+    pic4.src = './Images/category-5-2-2 (1).jpg';
+    pic4.style.transition = "0.3 ease";
+    pic4.style.transitionDuration = "0.4";
+  });
+
+  var pic5 = document.getElementById('show5');
+
+  document.getElementById('show5-5').addEventListener('mouseover', function() {
+    pic5.src = './Images/show1.jpg';
+    pic5.style.transition = "ease";
+    pic5.style.transitionDuration = "0.4";
+
+  });
+
+  document.getElementById('show5-5').addEventListener('mouseout', function() {
+    pic5.src = './Images/e92446137e815281902b527019c42309.jpg';
+    pic5.style.transition = "0.3 ease";
+    pic5.style.transitionDuration = "0.4";
+  });
+
+  var pic6 = document.getElementById('show6');
+
+  document.getElementById('show6-6').addEventListener('mouseover', function() {
+    pic6.src = './Images/show10.jpg';
+    pic6.style.transition = "ease";
+    pic6.style.transitionDuration = "0.4";
+
+  });
+
+  document.getElementById('show6-6').addEventListener('mouseout', function() {
+    pic6.src = './Images/l2.jpeg';
+    pic6.style.transition = "0.3 ease";
+    pic6.style.transitionDuration = "0.4";
+  });
+
+  var pic7 = document.getElementById('show7');
+
+  document.getElementById('show7-7').addEventListener('mouseover', function() {
+    pic7.src = './Images/show5.jpg';
+    pic7.style.transition = "ease";
+    pic7.style.transitionDuration = "0.4";
+
+  });
+
+  document.getElementById('show7-7').addEventListener('mouseout', function() {
+    pic7.src = './Images/item_51_03_01.jpg';
+    pic7.style.transition = "0.3 ease";
+    pic7.style.transitionDuration = "0.4";
+  });
+
+  var pic8 = document.getElementById('show8');
+
+  document.getElementById('show8-8').addEventListener('mouseover', function() {
+    pic8.src = './Images/show3.jpg';
+    pic8.style.transition = "ease";
+    pic8.style.transitionDuration = "0.4";
+
+  });
+
+  document.getElementById('show8-8').addEventListener('mouseout', function() {
+    pic8.src = './Images/resd4333be8c0527f147194085f0c4bda83fr.jpg';
+    pic8.style.transition = "0.3 ease";
+    pic8.style.transitionDuration = "0.4";
+  });
+
+  var pic9 = document.getElementById('show9');
+
+  document.getElementById('show9-9').addEventListener('mouseover', function() {
+    pic9.src = './Images/show2.jpg';
+    pic9.style.transition = "ease";
+    pic9.style.transitionDuration = "0.4";
+
+  });
+
+  document.getElementById('show9-9').addEventListener('mouseout', function() {
+    pic9.src = './Images/item_41_kv.jpg';
+    pic9.style.transition = "0.3 ease";
+    pic9.style.transitionDuration = "0.4";
+  });
+
+  var pic10 = document.getElementById('show10');
+
+  document.getElementById('show10-10').addEventListener('mouseover', function() {
+    pic10.src = './Images/show12.jpg';
+    pic10.style.transition = "ease";
+    pic10.style.transitionDuration = "0.4";
+
+  });
+
+  document.getElementById('show10-10').addEventListener('mouseout', function() {
+    pic10.src = './Images/item_23_kv.jpg';
+    pic10.style.transition = "0.3 ease";
+    pic10.style.transitionDuration = "0.4";
+  });
+}
+
+
+
+
+layout();

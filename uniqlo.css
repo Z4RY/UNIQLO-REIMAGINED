@@ -45,16 +45,6 @@ html,body{
     src: url(./Font/Reem_Kufi/ReemKufi-VariableFont_wght.ttf) format('truetype');
 }
 @font-face {
-    font-family: "reem kufi";
-    src: url(./Font/Reem_Kufi/static/ReemKufi-Bold.ttf) format('truetype');
-    font-weight: 500;
-}
-@font-face {
-    font-family: "reem kufi";
-    src: url(./Font/Reem_Kufi/static/ReemKufi-Regular.ttf) format('truetype');
-    font-weight: 300;
-}
-@font-face {
     font-family: "d-din";
     src: url(./Font/d-din/D-DIN.otf) format('otf');
 }
@@ -103,7 +93,7 @@ html,body{
     color: white;
     font-family: "product sans";
     position: absolute;
-    top: 2%;
+    top: 1.7%;
     left: 35%;
     opacity: 0;
 }
@@ -111,7 +101,7 @@ html,body{
     width: 5vw;
     height: 5vw;
     position: absolute;
-    top: 2.1%;
+    top: 1.8%;
     left: 52%;
     opacity: 0;
 }
@@ -121,7 +111,7 @@ html,body{
     rotate: 180deg;
     position: absolute;
     left: 59%;
-    top: 2.1%;
+    top: 1.8%;
     opacity: 0;
 }
 
@@ -1595,7 +1585,7 @@ nav{
     align-items: center;
     font-family: "product sans";
     font-size: 2.4rem;
-    color: rgb(0, 0, 0);
+    color: #031322;
     z-index: 10;
     top: 0;
     left: 0;
@@ -2176,6 +2166,148 @@ margin-top: 1em;
 
 
 
+/* *******************************************************88 page 14 & page 15 ********************************************* */
+
+#page14th{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5vw;
+    width: 100%;
+    height: 120vh;
+    background-image: url(./Images/bg.jpg);
+    background-position: center;
+ }
+ #page14th-right{
+    /* background-color: red; */
+    width: 65%;
+    height: 90%;
+ }
+
+ #page14th-left{
+    width: 29%;
+    height: 100%;
+    /* background-color: yellow; */
+ }
+ #page14th-left img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+ }
+
+
+ #upper{
+    width: 60%;
+    height: 50%;
+    padding-top: 5vw;
+    font-size: 2.5vw;
+    font-family: "product sans";
+    font-weight: 100;
+    position: relative;
+    left: 9%;
+    top: 6%;
+ }
+
+ #lower{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5vw;
+    margin-top: 1.5vw;
+ }
+
+
+ #lower1 h5{
+    font-family: "work sans";
+    font-weight: 400;
+    line-height: 1.4vw;
+    /* padding-left: 8vw; */
+    position: relative;
+    left: 25%;
+    width: 80%;
+    padding-bottom: 20vw;
+ }
+ #lower2{
+    padding-bottom: 3vw;
+ }
+
+ #lower2 p{
+    font-family: "work sans";
+    font-weight: 400;
+    font-size: 0.9vw;
+    padding-bottom: 2vw;
+    width: 90%;
+    line-height: 1.5vw;
+ }
+
+
+ #page15{
+    background-image: url(./Images/bg.jpg);
+    width: 100%;
+    height: 130vh;
+    position: relative;
+ }
+
+ #live{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 95%;
+    height: 95%;
+    padding: 2vw;
+    /* background-color: red; */
+    position: relative;
+    left: 2.5%;
+    top: 10%;
+ }
+
+ #box{
+    /* background-color: yellow; */
+    /* border: 2px solid #000; */
+    width: 30%;
+    height: 95%;
+ }
+
+ #article{
+    rotate: -90deg;
+    position: absolute;
+    width: 2vw;
+    z-index: 99999;
+    left: 12%;
+    top: -8%;
+ }
+
+ #boxes{
+    width: 70%;
+    height: 80%;
+    /* background-color: aqua; */
+    position: relative;
+    left: 15%;
+    border-radius: 15px;
+    overflow: hidden;
+ }
+
+ #boxes img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+ }
+
+ #box p{
+    font-size: 0.7vw;
+    font-family: "work sans";
+    position: relative;
+    font-weight: 500;
+    line-height: 1vw;
+    padding-top: 1.5vw;
+    width: 70%;
+    left: 16%;
+ }
+
+
+
+
 
 
 
@@ -2726,6 +2858,20 @@ margin-top: 1em;
         width: 100%;
         overflow-x: hidden;
     }
+    #page8{
+        height: 70vh;
+    }
+    #top-h1{
+        font-size: 20vw;
+        position: absolute;
+        top: 20%;
+        padding-top: 90vw;
+    }
+    .content{
+        left: 10%;
+    }
+
+
     .page3{
         position: relative;
         height: 100%;

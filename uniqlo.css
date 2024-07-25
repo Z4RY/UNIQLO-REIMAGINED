@@ -2359,6 +2359,56 @@ margin-top: 1em;
 
 
 
+    #page14th{
+        height: 100vh;
+        width: 100%;
+        background-image: url(./Images/bg.jpg);
+        background-position: center;
+        margin-top: 0;
+    }
+
+    #page14th-left{
+        width: 80%;
+        height: 100%;
+    }
+    #upper{
+        position: relative;
+        top: 20%;
+        font-size: 4vw;
+        left: 2%;
+    }
+    #lower1 h5{
+        position: relative;
+        left: 10%;
+        top: 30%;
+        font-size: 2vw;
+        line-height: 3vw;
+    }
+    #lower2 p{
+        font-size: 1.5vw;
+        padding-bottom: 6.5vw;
+    }
+    #live{
+        display: flex;
+        position: relative;
+        top: 3%;
+        flex-direction: column;
+    }
+    #box{
+        width: 80%;
+        height: 50%;
+    }
+    #box p{
+        font-size: 1.5vw;
+        line-height: 2vw;
+    }
+
+
+
+
+
+
+
 
     #page1{
         height: 100%;

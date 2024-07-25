@@ -42,9 +42,17 @@ html,body{
 /* Reem Kufi */
 @font-face {
     font-family: "reem kufi";
-    src: url('./asset/font/ReemKufi-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+    src: url(./Font/Reem_Kufi/ReemKufi-VariableFont_wght.ttf) format('truetype');
+}
+@font-face {
+    font-family: "reem kufi";
+    src: url(./Font/Reem_Kufi/static/ReemKufi-Bold.ttf) format('truetype');
+    font-weight: 500;
+}
+@font-face {
+    font-family: "reem kufi";
+    src: url(./Font/Reem_Kufi/static/ReemKufi-Regular.ttf) format('truetype');
+    font-weight: 300;
 }
 @font-face {
     font-family: "d-din";
@@ -162,6 +170,9 @@ nav{
     /* align-items: center; */
     width: 25%;
     gap: 3vw;
+    /* position: fixed; */
+    top: 2%;
+    left: 37%;
     z-index: 99;
     margin-left: 2.5vw;    /* background-color: yellow; */
 }
@@ -1354,24 +1365,106 @@ nav{
 
 
  /* <-------------------------------------------------------------page7---------------------------------------------------------------------> */
-.page7{
+ #page7{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    overflow: hidden;
+}
+
+#top{
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(0, 0, 0);
+    z-index: 9;
+    overflow: hidden;
+}
+
+#center{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    transform-origin: center;
+    background-color: rgb(0, 0, 0);
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)1s;
+    overflow: hidden;
+}
+
+#bottom{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+}
+
+#page7 h1{
+    position: absolute;
+    font-family: "reem kufi";
+    top: 26%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+
+
+
+
+#top-h1{
+    /* bottom: 100%; */
+    padding-top: 19vw;
+    font-size: 11vw;
+}
+
+#bottom-h1{
+    font-size: 12vw;
+    position: absolute;
+    font-family: "work sans";
+    font-weight: 200;
+    font-size: 6.8vw;
+    padding-bottom: 5vw;
+}
+
+.content{
+    margin-top: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+    gap: 4vh;
+}
+
+
+
+
+
+
+.content{
     width: 100vw;
     height: 100vh;
     position: relative;
-    background-color: #fff;
+    /* background-color: #fff; */
 }
 
 #txt-7{
     letter-spacing: 0.1em;
     font-size: 1vw;
-    position: relative;
-    top: 40%;
+    position: absolute;
+    top: 29%;
     width: 120vw;
 }
  
 #p7-1{
     top: 0vw;
-    left: 22%;
+    left: 30%;
     position: absolute;
     font-size: 1.5vw;
     font-family: 'reem kufi';
@@ -1379,7 +1472,7 @@ nav{
 }
 #p7-2{
     top: 3vw;
-    left: 13%;
+    left: 20%;
     position: absolute;
     font-size: 1.5vw;
     font-family: 'reem kufi';
@@ -1387,7 +1480,7 @@ nav{
 }
 #p7-3{
     top: 6vw;
-    left: 25%;
+    left: 32%;
     position: absolute;
     font-size: 1.5vw;
     font-family: 'reem kufi';
@@ -1613,6 +1706,7 @@ nav{
     height: 50vh;
     /* margin-top: 1.4em; */
     position: relative;
+    margin-bottom: 5vw;
     background-color: #fff;
 }
 .content_10th_inside{
@@ -1637,7 +1731,7 @@ nav{
     z-index: 11;
 
 }
-
+z
 
 /*  <!-- End of the page 10th and Beginning of page 11th --> */
 
@@ -1871,10 +1965,10 @@ input{
 
 .rightpara_text{
     height: 70%;
-    width: 30%;
-    position: absolute;
-    top: 15%;
-    left: 63%;
+    width: 90%;
+    position: relative;
+    top: -3%;
+    left: 5%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
